@@ -1,0 +1,19 @@
+export default class InfractionEnum {
+  static None: string = "None";
+  static ProceduralErrorMinor: string = "ProceduralErrorMinor";
+  static ProceduralErrorMajor: string = "ProceduralErrorMajor";
+  static ProceduralErrorStrict: string = "ProceduralErrorStrict";
+  static TardinessMajor: string = "TardinessMajor";
+  static TardinessStrict: string = "TardinessStrict";
+  static DeckErrorMinor: string = "DeckErrorMinor";
+  static DeckErrorMajor: string = "DeckErrorMajor";
+  static DrawingCardsMinor: string = "DrawingCardsMinor";
+  static DrawingCardsMajor: string = "DrawingCardsMajor";
+  static MarkedCardsMinor: string = "MarkedCardsMinor";
+  static MarkedCardsMajor: string = "MarkedCardsMajor";
+  static SlowPlayMinor: string = "SlowPlayMinor";
+  static UnsportingConductMinor: string = "UnsportingConductMinor";
+  static UnsportingConductMajor: string = "UnsportingConductMajor";
+  static UnsportingConductSevere: string = "UnsportingConductSevere";
+  static UnsportingConductCheating: string = "UnsportingConductCheating";
+}
